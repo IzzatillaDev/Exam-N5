@@ -442,9 +442,9 @@ const Card = ({ product }: any) => {
         localStorage.setItem('likedProducts', JSON.stringify(updatedLikes));
     };
 
-    const truncateTitle = (title: string) => {
-        return title.length > 20 ? `${title.substring(0, 20)}...` : title;
-    };
+    // const truncateTitle = (title: string) => {
+    //     return title.length > 20 ? `${title.substring(0, 20)}...` : title;
+    // };
 
     return (
         <section className='first_product'>
@@ -460,7 +460,7 @@ const Card = ({ product }: any) => {
                             alt={product?.title}
                         />
                     </Link>
-                    <h2 className='card_title'>{truncateTitle(product?.title)}</h2>
+                    <h2 className='card_title'>{(product?.title)}</h2>
                     <div className='twos'>
                         <Image
                             src={Stars}
