@@ -1,0 +1,126 @@
+// .tab-container {
+//     width: 100%;
+//     max-width: 800px;
+//     margin: 0 auto;
+//     padding: 20px;
+// }
+
+.tabs {
+    display: flex;
+    /* justify-content:  */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabs .tab-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tabs .tab-button:hover {
+    background-color: #e0e0e0;
+}
+
+.tabs .tab-button.active {
+    background-color: brown;
+    color: #fff;
+}
+
+.content {
+    padding: 80px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.revies_title {
+    max-width: 125px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.revies_num {
+    max-width: 33px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.revies {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.samantha {
+    max-width: 118px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 110% */
+}
+
+.checks {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 19px;
+}
+
+.check_tetxs {
+    max-width: 522px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 12px;
+    /* 137.5% */
+}
+
+.data {
+    max-width: 546px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+    margin-top: 24px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    gap: 395px;
+}
+
+.review_card {
+    margin-top: 32px;
+    max-width: 610px;
+    padding: 28px 32px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.cards_rev{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

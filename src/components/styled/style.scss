@@ -1,0 +1,123 @@
+// .styles {
+//     padding-top: 70px;
+//     padding-bottom: 76px;
+
+// }
+
+// .style {
+//     max-width: 1239px;
+//     height: 866px;
+//     border-radius: 40px;
+//     background-color: #F0F0F0;
+// }
+
+// .styles_title {
+//     max-width: 687px;
+//     color: #000;
+//     text-align: center;
+//     font-family: "Integral CF";
+//     font-size: 48px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-top: 70px;
+// }
+
+// .mini_first_card {
+//     background-image: url("../../assets/mini_card.png");
+//     background-repeat: no-repeat;
+//     max-width: 407px;
+//     height: 289px;
+//     margin-left: 64px;
+//     margin-top: 64px;
+//     border-radius: 15px;
+// }
+
+// .mini_title {
+//     max-width: 114px;
+//     color: #000;
+//     font-family: Satoshi;
+//     font-size: 36px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+//     padding-left: 36px;
+//     padding-top: 20px;
+// }
+
+// .mini_second_title {
+//     max-width: 116px;
+//     color: #000;
+//     font-family: Satoshi;
+//     font-size: 36px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+// }
+
+// .mini_second_card{
+//     background-image: url("../../assets/mini_second_card.png");
+//     background-repeat: no-repeat;
+//     max-width: 684px;
+//     height: 289px;
+//     margin-left: 64px;
+//     padding-left: 36px;
+//     border-radius: 15px;
+
+
+// }
+
+// // .first_type{
+// //     display: flex;
+// //     align-items: center;
+// //     gap: 20px;
+// // }
+
+
+.arrivals {
+    .containers {
+      padding: 20px;
+      background-color: #f8f8f8; // Orqa fon rangini dizaynga moslang
+    }
+  
+    .arrivals_title {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+      font-family: 'Satoshi', sans-serif;
+      color: #000;
+      margin-bottom: 20px;
+    }
+  
+    .products {
+      display: flex;
+      flex-wrap: wrap; // Yangi qatorga joylashtirish uchun
+      justify-content: space-between;
+  
+      .product-item {
+        flex: 0 0 calc(50% - 10px); // Har bir element kengligi 50%, orasi uchun 10px bo'sh joy
+        margin-bottom: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+  
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+  
+        .product-title {
+          padding: 15px;
+          font-size: 24px;
+          font-weight: 700;
+          font-family: 'Satoshi', sans-serif;
+          color: #000;
+        }
+      }
+    }
+  }
+  

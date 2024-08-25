@@ -1,0 +1,327 @@
+.cart_btm {
+    max-width: 43px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cart_all_botm {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 54px;
+}
+
+.cart {
+    max-width: 31px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cart_title {
+    max-width: 259px;
+    color: #000;
+    font-family: "Integral CF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.cart_center_title {
+    max-width: 227px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.size {
+    max-width: 67px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.color {
+    max-width: 78px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+}
+
+.cart_cost {
+    max-width: 54px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.del {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart_cost {
+    margin-top: 15px;
+}
+
+.first_cart {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.second_cart {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    gap: 16px;
+}
+
+.third_cart {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    gap: 16px;
+}
+
+.all_carts {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px 24px;
+    max-width: 715px;
+
+}
+
+.delete_btn {
+    margin-left: 276px;
+}
+
+.order_title {
+    max-width: 179px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sub_total {
+    max-width: 72px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.sub_cost {
+    max-width: 49px;
+    color: #000;
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.all_total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.order_sum {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px 24px;
+    max-width: 505px;
+}
+
+.dis_title {
+    max-width: 143px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dis_cost {
+    max-width: 48px;
+    color: #F33;
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dis_count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.delivery_title {
+    max-width: 107px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.delivery_cost {
+    max-width: 32px;
+    color: #000;
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deliverys {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.total {
+    max-width: 42px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all_total {
+    max-width: 56px;
+    color: #000;
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.totals {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.promo_btns {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 62px;
+    background: #F0F0F0;
+    padding: 12px 84px;
+}
+
+.promo_btns::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url("../../assets/promo_icon.svg");
+}
+
+.apply_btn {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    background: #000;
+    padding: 12px 28px;
+
+}
+
+.promo_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.checkout_btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    background: #000;
+    padding: 16px 159px;
+    margin-top: 24px;
+
+}
+
+.checkout_btn::after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url("../../assets/check.svg");
+}
+
+.korzina_checked{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}

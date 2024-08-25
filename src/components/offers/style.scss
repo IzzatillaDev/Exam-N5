@@ -1,0 +1,65 @@
+.offers {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.banners {
+    border-radius: 20px;
+    background: #000;
+    height: 180px;
+    padding: 36px 64px;
+
+}
+
+.banner_title {
+    max-width: 551px;
+    color: #FFF;
+    font-family: "Integral CF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.email {
+    border-radius: 62px;
+    background: #FFF;
+    padding: 12px 16px;
+    max-width: 349px;
+    gap: 12px;
+}
+
+// .email::before{
+//     content: "";
+//     width: 24px;
+//     height: 24px;
+//     background-repeat: no-repeat;
+//     display: inline-block;
+//     background-image: url("../../assets/hero_bg.svg");
+// }
+
+.subscribe {
+    border-radius: 62px;
+    background: #FFF;
+    padding: 12px 16px;
+    max-width: 349px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.banner_up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subs{
+    display: grid;
+    gap: 14px;
+
+}

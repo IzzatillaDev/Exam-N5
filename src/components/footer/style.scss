@@ -1,0 +1,107 @@
+.footer_text {
+    max-width: 248px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+    margin-top: 25px;
+}
+
+.socialss {
+    margin-top: 35px;
+}
+
+// .textss {
+//     max-width: 269px;
+//     color: rgba(0, 0, 0, 0.60);
+//     text-align: right;
+//     font-family: Satoshi;
+//     font-size: 14px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//     margin-top: 75px;
+// }
+
+.company {
+    max-width: 98px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.about {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    /* 118.75% */
+    margin-top: 12px;
+}
+
+.help {
+    max-width: 49px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.custom {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    /* 118.75% */
+    margin-top: 12px;
+}
+
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btm_text {
+    max-width: 269px;
+    color: rgba(0, 0, 0, 0.60);
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 75px;
+}
+
+.net_cards{
+    display: flex;
+    margin-left: 690px;
+    // justify-content: space-between;
+    gap: 12px;
+    margin-top: 66px;
+}
+
+.net_btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

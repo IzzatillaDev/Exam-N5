@@ -1,0 +1,260 @@
+.image_1 {
+    border-radius: 20px;
+    // border: 1px solid #000;
+    // background: lightgray 50% / cover no-repeat;
+}
+
+.image_2 {
+    border-radius: 20px;
+    margin-top: 14px;
+    // border: 1px solid #000;
+    // background:  lightgray 50% / cover no-repeat;
+}
+
+.image_3 {
+    border-radius: 20px;
+    margin-top: 14px;
+    // border: 1px solid #000;
+    // background:  lightgray 50% / cover no-repeat;
+}
+
+.images_single {
+    margin-top: 36px;
+}
+
+.SingleImage {
+    border-radius: 20px;
+    background: lightgray -12.816px -91.715px / 107.109% 134.609% no-repeat, #F0EEED;
+    margin-top: 36px;
+}
+
+.single_title {
+    max-width: 600px;
+    color: #000;
+    font-family: "Integral CF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dis_cost {
+    max-width: 38px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.stars_bg {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.cost_1 {
+    max-width: 81px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cost_2 {
+    max-width: 83px;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Satoshi;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+
+.dis_count {
+    padding: 6px 14px;
+    border-radius: 62px;
+    background: rgba(255, 51, 51, 0.10);
+    color: #F33;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dis_text {
+    max-width: 590px;
+    color: rgba(0, 0, 0, 0.60);
+    // leading-trim: both;
+    // text-edge: cap;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.all_single_pg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single_titles {
+    margin-top: 36px;
+}
+
+.costs {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.dist_texts {
+    margin-top: 20px;
+}
+
+.color_title {
+    max-width: 93px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mini_colors {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.colors {
+    margin-top: 48px;
+}
+
+.size_title {
+    max-width: 87px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_size {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 62px;
+    background: #F0F0F0;
+    padding: 12px 24px;
+
+}
+
+.btn_size_click {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    background: #000;
+    padding: 12px 24px;
+
+}
+
+.btns {
+    margin-top: 16px;
+}
+
+.choose_size {
+    margin-top: 48px;
+}
+
+.add_btn {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    background: #000;
+    padding: 16px 54px;
+    margin-top: 48px;
+
+}
+
+.more_revies {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 16px 54px;
+
+
+
+}
+
+.btn_rev_more {
+    text-align: center;
+    margin-top: 36px;
+}
+
+.also_like {
+    max-width: 579px;
+    color: #000;
+    text-align: center;
+    font-family: "Integral CF";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+
+
+.more_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.back {
+    max-width: 43px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.back_too {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 22px;
+}

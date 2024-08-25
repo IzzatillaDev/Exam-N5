@@ -1,0 +1,199 @@
+.first_header {
+    // width: 1440px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #000000;
+
+}
+
+// .header{
+//     // padding-top: 40px;
+//     position: fixed;
+//     left: 0;
+//     right: 0;
+//     top: 0;
+//     background-color: #fff;
+//     box-shadow: 0 0 0 5px rgb(241, 237, 237);
+//     // padding-bottom: 15px;
+//     z-index: 9999;
+// }
+
+.fisrt_title {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 351px;
+    height: 19px;
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containers {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.second_header {
+    background-color: #FFF;
+    padding-top: 50px;
+}
+
+.links_title {
+    list-style-type: none;
+    max-width: 107px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.links1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.links_title2 {
+    list-style-type: none;
+    max-width: 79px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all_links {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-left: 40px;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+}
+
+// .input {
+//     background-color: red;
+//     color: red;
+//     //  color: rgba(0, 0, 0, 0.40);
+//     font-family: Satoshi;
+//     font-size: 16px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//     padding: 12px 16px;
+//     gap: 12px;
+
+// }
+
+// .input::before {
+//     content: "";
+//     display: inline-block;
+//     width: 24px;
+//     height: 24px;
+//     background-image: url("../../assets/search.svg");
+//     background-repeat: no-repeat;
+// }
+
+.menu{
+    display: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.mobile_logo{
+    max-width: 126px;
+    height: 18px;
+}
+
+.mobile_logo{
+    display: none;
+}
+
+.third_icons{
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .fisrt_title {
+        max-width: 301px;
+    }
+
+    .all_links{
+        display: none;
+    }
+    .input_ant{
+        display: none;
+    }
+    .logo{
+        max-width: 126px;
+        height: 18px;
+    }
+    .links1{
+        display: none;
+    }
+    .links_title2{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    .mobile_logo{
+        display: inline-block;
+    }
+    .all{
+        display: none;
+    }
+
+    .search_icn{
+        max-width: 24px;
+        height: 24px;
+    }
+
+    .user{
+        max-width: 24px;
+        height: 24px;
+    }
+
+    .third_icons{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .first_icons{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .all_mobile_icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}

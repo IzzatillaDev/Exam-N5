@@ -1,0 +1,67 @@
+.card_title {
+    max-width: 275px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 16px;
+}
+
+.span_number {
+    max-width: 33px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.twos {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 8px;
+}
+
+.cost {
+    max-width: 55px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.card_img {
+    border-radius: 18px;
+    max-width: 290px;
+    height: 244px;
+}
+
+.to_cart {
+    background-color: #000;
+    // color: #fff;
+    padding: 16px 120px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+    // max-width: 300px;
+}
+
+.like_icon{
+    max-width: 65px;
+    height: 30px;
+    font-size: 28px;
+}
