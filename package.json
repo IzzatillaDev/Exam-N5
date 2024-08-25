@@ -21,7 +21,9 @@
     "react-notifications-component": "^4.0.1",
     "react-toastify": "^10.0.5",
     "sass": "^1.77.8",
+    "swiper": "^11.1.10",
     "zustand": "^4.5.5"
+    
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.6",
